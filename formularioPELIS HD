@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Pelis HD</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='estilo.css'>
+    
+    
+
+</head>
+<body>
+
+    <div id="navegador">
+        <nav>
+        
+            <H1 id="titulo">PELIS HD</H1>
+        
+        
+        </nav>
+    </div>
+
+
+    <div id="formulario" >
+        <form   name="registro">
+
+            <h3>Regristro</h3>
+           
+            <input id="correo"  class="controles" type="mail" placeholder="ingrese correo electronico">
+            <input id="nombre"  class="controles" type="text" name="nombre de usuario" placeholder="ingrese su nombre de usuario">
+            <input id="clave" class="controles" type="password" placeholder="ingrese su clave">
+            <input id="clave" class="controles" type="password" placeholder="repita su clave">
+            <p>estoy de acuerdo con los <a href="">terminos y condiciones</a></p>
+            <input id="boton" class="boton"  type="submit" value="registrarme" >
+            <p id="iniciosesion" class="inicio"> ¿tienes cuenta? <a href="">iniciar seccion</a></p>
+            
+
+            
+            
+
+        </form>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
